@@ -1,0 +1,6 @@
+TOKEN=Your-Discor-bot-token
+MONGO_URL=Your-mongodb-url
+CLIENT_ID=bot id
+LAVALINK_HOST=ip
+LAVALINK_PORT=Port
+LAVALINK_PASSWORD=youshallnotpass
