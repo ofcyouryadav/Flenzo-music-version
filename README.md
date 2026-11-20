@@ -3,7 +3,7 @@
 > A powerful, feature-rich Discord music bot built with **discord.js v14**, **lavalink-client**, and **Components V2 (CV2)**.
 > 
 > **Developer:** Yadav  
-> **Support:** [discord.gg/4season](https://discord.gg/4season)
+> **Support:** Dm 'ofcyouryadav' in discord
 
 ---
 
@@ -80,7 +80,7 @@ flenzo-bot/
 ### 1. Clone & Install
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/ofcyouryadav/Flenzo-music-version
 cd flenzo-bot
 npm install
 ```
@@ -241,5 +241,5 @@ message.reply({
 
 ## 📝 License
 
-Built by **Yadav** — for support join [discord.gg/4season](https://discord.gg/4season)
+Built by **Yadav** — for support Dm 'ofcyouryadav' in discord
 
