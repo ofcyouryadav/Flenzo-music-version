@@ -1,9 +1,12 @@
+<img align="right" src="https://i.ibb.co/bRHnZjrb/1795155314.png" width="160" alt="Flenzo">
+
 # 🎵 flenzo Music Bot
 
 > A powerful, feature-rich Discord music bot built with **discord.js v14**, **lavalink-client**, and **Components V2 (CV2)**.
 > 
 > **Developer:** Yadav  
-> **Support:** Dm 'ofcyouryadav' in discord
+> **Support:** Dm 'ofcyouryadav' in discord  
+> 💸 If you want to donate and help the developer here is the ltc : `YOUR_LTC_ADDRESS`
 
 ---
 
@@ -243,3 +246,4 @@ message.reply({
 
 Built by **Yadav** — for support Dm 'ofcyouryadav' in discord
 
+🤝 Use it freely just give a small credit to the developer
