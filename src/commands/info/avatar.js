@@ -26,7 +26,6 @@ module.exports = {
   ownerOnly: false,
 
   async execute(client, message, args) {
-    // Target user resolve karo
     const target =
       message.mentions.users.first() ||
       (args[0] ? await client.users.fetch(args[0]).catch(() => null) : null) ||
@@ -35,7 +34,7 @@ module.exports = {
     if (!target)
       return message.reply(cv2(`❌ **User not found.**`)).catch(() => {});
 
-    // Avatar URLs — global + server (agar guild member ho)
+    // Avatar URLs — global + server
     const globalAvatar = target.displayAvatarURL({ size: 4096, dynamic: true });
 
     const member = message.guild
@@ -44,7 +43,7 @@ module.exports = {
 
     const serverAvatar = member?.avatarURL({ size: 4096, dynamic: true });
 
-    // Gallery items banao
+    // Gallery items
     const gallery = new MediaGalleryBuilder();
 
     gallery.addItems(
@@ -61,7 +60,7 @@ module.exports = {
       );
     }
 
-    // Container banao
+    // Container
     const container = new ContainerBuilder()
       .addTextDisplayComponents(
         new TextDisplayBuilder().setContent(
